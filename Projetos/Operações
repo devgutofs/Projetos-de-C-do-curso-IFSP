@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+main()
+{
+	int n1, n2, soma, sub, mult;
+	double div;
+	cout<<"Escreva um numero ";
+	cin>>n1;
+	cout<<"Escreva outro numero ";
+	cin>>n2;
+	soma = n1 + n2;
+	sub = n1 - n2;
+	mult = n1 * n2;
+	div = n1 / n2;
+	
+	
+	cout<<"Soma = "<< soma<<endl;
+	cout<<"Subtracao = "<< sub<< endl;
+	cout<<"Multiplicacao = "<< mult<< endl;
+	cout<<"Divisao = "<<div<<endl;
+	
+	return 0;
+}
