@@ -1,0 +1,9 @@
+	#include <iostream>
+	using namespace std;
+	main(){
+		int n1 = 2;
+		while(n1<=100 && n1 % 2==0)
+	{cout<<n1<<endl;
+	n1= n1+2;
+	}
+	}
