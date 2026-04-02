@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+main(){
+	
+	int n1;
+	
+	cout<<"Selecione uma cor"<<endl;
+	cout<<"(1)Verde (2)Azul (3)Vermelho"<<endl;
+	cin>>n1;
+	
+	
+	switch(n1){	
+	case 1: 
+		cout<<"Voce escolheu verde";
+		break;
+	
+	case 2:
+		cout<<"Voce escolheu azul";
+		break;
+		
+	case 3: 
+		cout<<"Voce escolheu vermelho";
+		break;
+		
+	default:
+		cout<<"Escolha invalida";
+		break;}
+		return 0;
+}
