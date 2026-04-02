@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+main(){
+	int I = 0;
+	while(I<20){
+		cout<<I<<endl;
+		I = I + 1;
+		if (I>15){
+			break;
+		}
+	}
+	return 0;
+}
