@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+main(){
+	int n1;
+	cout<<"Qual e o meu nome?"<<endl;
+	cout<<"(1)Joao (2)Gustavo (3)Jose (4)Gabriel"<<endl;
+	cin>>n1;
+	switch(n1){
+		
+	case 1:
+	case 3:
+	case 4:
+		cout<<"Errado!"<<endl;
+		break;
+		
+	case 2:
+		cout<<"Acertou!"<<endl;
+		break;
+	default:
+		cout<<"Nao era uma opcao"<<endl;
+		break;
+	}
+	return 0;
+}
