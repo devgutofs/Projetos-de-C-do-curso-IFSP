@@ -1,0 +1,20 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+using namespace std;
+int main(){
+	double A, B, C, delta, x1, x2;
+	cin>>A>>B>>C;
+	delta = (B * B) - (4 * A * C);
+	if(delta>=0){
+		x1=(-B + sqrt(delta) )/ (2 * A);
+		x2=(-B - sqrt(delta) )/ (2 * A);
+		cout<<fixed;
+		cout<<setprecision(5)<<"R1 = "<<x1<<endl;
+		cout<<setprecision(5)<<"R2 = "<<x2<<endl;
+	}
+	else {
+		cout<<"Impossivel calcular"<<endl;
+	}
+	
+}
