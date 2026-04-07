@@ -1,0 +1,62 @@
+#include <iostream>
+using namespace std;
+int main(){
+	int pessoas, cidade, price, pais;
+	cout<<"Voce quer viajar pelo Brasil ou para o exterior?"<<endl;
+	cout<<"1-Brasil 2-Exterior"<<endl;
+	cin>>pais;
+	cout<<"Quantas pessoas vao na viagem?"<<endl;
+	cin>>pessoas;
+	switch(pais){
+		case 1:
+			cout<<"Selecione a cidade que deseja ir"<<endl;
+			cout<<"1-Rio de Janeiro 2-Salvador 3-Porto Alegre"<<endl;
+			cin>>cidade;
+				switch(cidade){
+					case 1:
+						price = pessoas * 700;
+						cout<<"A viagem custara R$"<<price;
+						break;
+					case 2:
+						price = pessoas * 900;
+						cout<<"A viagem custara R$"<<price;
+						break;
+					case 3:
+						price = pessoas * 880;
+						cout<<"A viagem custara R$"<<price;
+						break;
+					default:
+						cout<<"Escolha invalida";
+						break;
+								}
+		case 2:
+			cout<<"Selecione onde voce deseja ir"<<endl;
+			cout<<"1-Nova York 2-Franca 3-Cancun 4-Madri"<<endl;
+			cin>>cidade;
+				switch(cidade){
+					case 1:
+						price = pessoas * 2200;
+						cout<<"A viagem custara R$"<<price;
+						break;
+					case 2:
+						price = pessoas * 3350;
+						cout<<"A viagem custara R$"<<price;
+						break;
+					case 3:
+						price = pessoas * 3900;
+						cout<<"A viagem custara R$"<<price;
+						break;
+					case 4:
+						price = pessoas * 4000;
+						cout<<"A viagem custara R$"<<price;
+						break;
+					default:
+						cout<<"Escolha invalida"<<endl;
+							}
+							break;
+						
+		default:
+			cout<<"Escolha invalida"<<endl;
+			break;
+				}
+}
