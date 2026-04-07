@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+main(){
+	int T, A, B, C, D, E, i;
+	i = 0;
+	cin>>T;
+	cin>>A>>B>>C>>D>>E;
+	
+			if (A==T){
+				i++;
+			}
+			
+			if (B==T){
+				i++;
+			}	
+			if (C==T){
+				i++;
+			}
+			if (D==T){
+				i++;
+			}
+			if (E==T){
+				i++;
+			}
+	
+	
+	
+	cout<<i<<endl;
+	return 0;
+	
+}
